@@ -2,16 +2,17 @@
 
 using namespace std;
 
-void square(int num);
+void power(int base, int exponent);
 
 int main() {
 
 	return 0;
 }
 
-void square(int num) {
+void power(int base, int exponent) {
 	int number;
 
 	number = pow(num, 2);
-	cout << number << endl;
+	cout << "Base number: " << base << endl;
+	cout << "Exponent: " << exponent << endl;
 }
